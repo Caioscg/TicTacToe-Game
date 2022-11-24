@@ -1,4 +1,4 @@
-<h1 align="center"> Tic-Tac_Toe Game </h1>
+<h1 align="center"> Tic-Tac-Toe Game </h1>
 
 <p align="center">
 A complete development of a TicTacToe game, including local multiplayer and singleplayer against an AI.
