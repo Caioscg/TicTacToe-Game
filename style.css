@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+body {
+    background-image: url(./assets/madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@font-face {
+    font-family: Rye-Regular;
+    src: url(assets/Rye-Regular.ttf);
+}
+h1 {
+    font-size: 100px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Rye-Regular;
+    text-shadow: 2px 2px 2px wheat;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#pve {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    text-decoration: none;
+    width: 300px;
+    height: 75px;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+    font-size: 43px;
+    background-color: rgb(148, 91, 22);
+    font-family: Rye-Regular;
+    font-variant: small-caps;
+    border-radius: 10px;
+}
+#pvp {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    text-decoration: none;
+    width: 300px;
+    height: 75px;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+    font-size: 43px;
+    background-color: rgb(148, 91, 22);
+    font-family: Rye-Regular;
+    font-variant: small-caps;
+    border-radius: 10px;
+}
+#pvp:hover, #pve:hover {
+    background-color: #9d6525;
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
