@@ -40,7 +40,7 @@ This project was developed with the following technologies:
 
 ## 🌐 Site
 
-You can check the project with this link: https://tictactoe-ashen.vercel.app
+You can check the project with this link: https://tic-tac-toe-game-silk-omega.vercel.app
 
 ## :memo: License
 
